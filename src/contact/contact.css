@@ -1,0 +1,22 @@
+.contacts{
+  height: 50vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactspan>p>span{color:orangered}
+
+.contactspan{
+    border:1px solid white;
+    height:200px;
+    width:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.contactspan>p{
+    padding-bottom: 20px;
+}

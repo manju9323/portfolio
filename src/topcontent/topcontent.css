@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oleo+Script&display=swap');
+
+.topcontent{
+    display: flex;
+    flex-direction:row;
+    color:white;
+    position: relative;
+    
+}
+.topcontent-container{
+   flex: 0.5;
+    top:300px;
+    right:150px;
+    position:absolute;
+
+
+}
+.profileimg{
+    flex:0.5;
+    position: relative;
+}
+.profileimg>img{
+    height:450px;
+    width:350px;
+    top:200px;
+    right:40px;
+    position:absolute;
+    border-radius:70px 20px;
+}
+.topcontent-container>p{
+    letter-spacing: 1px;
+    text-align:left;
+    padding-top: 20px;
+}
+.topcontent-container>a>button{
+    border-radius: 3px;
+    border:none;
+    margin-left: 5px;
+}
+.topcontent-container>h1{
+    font-size: 40px;
+    font-family:"Montserrat",sans-serif;
+}
+.linkbutt{
+ color:white;
+ background-color: orangered;
+ font-size: 14xpx;
+ padding: 10px 30px;
+ font-weight: 300;
+ cursor: pointer;
+ margin-right: 20px;
+ font-family:"Montserrat",sans-serif;
+ margin-top: 20px;
+}
+.downloadbutt{
+    color:white;
+    background-color: orangered;
+    font-size: 14xpx;
+    padding: 10px 30px;
+    font-weight: 300;
+    cursor: pointer;
+    margin-right: 20px;
+    font-family:"Montserrat",sans-serif;
+    margin-top: 20px;
+}
+.linkbutt:hover{
+    background-color: white;
+    color: black;
+}
+.downloadbutt:hover{
+    background-color: white;
+    color: black;
+}

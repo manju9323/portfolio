@@ -1,0 +1,31 @@
+.en{
+    height:100px;
+    width:120px;
+    margin: 20px;
+    background-color:;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    border:1px solid white;
+}
+.en:hover{
+  background-color: orangered;
+  cursor:pointer;
+
+}
+.exp{
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+}
+.ex{
+
+    display: flex;
+    padding:50px 0;
+    flex-direction: row;
+}
