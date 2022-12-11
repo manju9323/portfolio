@@ -3,23 +3,56 @@ import { Element } from 'react-scroll'
 import "./project.css"
 import ProjectMap from './projectmap'
 
+
 const project=[
-    {img:"short.png",
-    title:"url shortner",
-    desc:"url shortner for mern stack developer redirect to specific url",
-  link:"https://startling-bavarois-af96a1.netlify.app"},
-    {img:"gmail.png",
-    title:"gmail clone app",
+  {img:"youtube.png",
+  title:"Youtube reactjs+mongodb firebase googleauth",
+  desc:"upload,subscribe,likes,comments section is here and wait for 30sec to start server",
+  github:"https://github.com/manju9323/youtubereact",
+  mongo:"https://github.com/manju9323/youtubenode",
+  netlify:"https://youtubeplacereact.netlify.app/",
+  link:"https://youtubeplacereact.netlify.app/"},
+
+  {img:"chat.png",
+  title:"Real time chat app reactjs+mongodb",
+  desc:"create account to follow others real time online chat using socket io",
+  github:"https://github.com/manju9323/chatsreact",
+  mongo:"https://github.com/manju9323/chatnode",
+  netlify:"https://chatreactmaesgo.netlify.app/",
+  link:"https://chatreactmaesgo.netlify.app/"},
+
+  {img:"gmail.png",
+    title:"gmail clone app reactjs+mongodb",
     desc:"gmail clone app send create inbox delete forward reply",
-    link:"https://calm-stroopwafel-e735ec.netlify.app"},
-    {img:"movie.png",
-    title:"ticket booking app",
-    desc:"booking app for movie ticket",
-    link:"https://leafy-rabanadas-a10613.netlify.app"},
-    {img:"mem.png",
-    title:"find and select members",
-    desc:"select and find some doctors at particular time",
-    link:"https://jocular-naiad-c8919d.netlify.app"}
+    github:"https://github.com/manju9323/frontendmailgood",
+  mongo:"https://github.com/manju9323/gmailbackendfine",
+  netlify:"https://gmailreact.netlify.app/",
+    link:"https://gmailreact.netlify.app/"},
+
+    {img:"ecom.png",
+    title:"ecom website reactjs+mysql",
+    desc:"ecom website using stripe payment gateway",
+    github:"https://github.com/manju9323/ecompaymentreact",
+  mongo:"https://github.com/manju9323/apiecom",
+  netlify:"https://ecompaymentreact.netlify.app/",
+  link:"https://ecompaymentreact.netlify.app/"},
+
+    {img:"short.png",
+    title:"url shortner reactjs+mongodb",
+    desc:"using email forget password url shortner for mern stack developer redirect to specific url",
+    github:"https://github.com/manju9323/urlshort38",
+  mongo:"https://github.com/manju9323/urlshortbackend38",
+  netlify:"https://startling-bavarois-af96a1.netlify.app",
+  link:"https://startling-bavarois-af96a1.netlify.app"},
+
+  {img:"crud.png",
+    title:"CRUD operation",
+    desc:"this project just only front end crud operation using fake api",
+    github:"https://github.com/manju9323/jayamcrud",
+  mongo:"",
+  netlify:"https://verdant-cannoli-aa1ce1.netlify.app/",
+  link:"https://verdant-cannoli-aa1ce1.netlify.app/"},
+    
 ]
 
 
@@ -28,7 +61,11 @@ function Project() {
   return (
     <Element name='project' className='projectcontainer'>
       <h1>Projects</h1>
-      <p>here are some project</p>
+      <h2>Credentials</h2>
+      <p>Admin log in: manjugopi610@gmail.com</p>
+      <p>Password: 333</p>
+      <p>User log in: christgopi333@gmail.com</p>
+      <p>Password: 333</p>
       <div className='projectcontainerproject'>
       {
          project.map((mm,i)=><ProjectMap key={i} mmm={mm}/>)

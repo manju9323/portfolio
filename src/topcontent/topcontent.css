@@ -4,29 +4,37 @@
     display: flex;
     flex-direction:row;
     color:white;
-    position: relative;
-    
+    height: 90vh;
+    width:100vw;
 }
-.topcontent-container{
-   flex: 0.5;
-    top:300px;
-    right:150px;
-    position:absolute;
 
-
-}
 .profileimg{
-    flex:0.5;
-    position: relative;
+    flex:1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100%;
+    width: 100%;
 }
-.profileimg>img{
-    height:450px;
-    width:350px;
-    top:200px;
-    right:40px;
-    position:absolute;
+.inner{
+    height:420px;
+    width:320px;
+}
+
+.profileimg>div>img{
+    height:420px;
+    width:320px;
     border-radius:70px 20px;
 }
+.topcontent-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:80%
+ }
+
 .topcontent-container>p{
     letter-spacing: 1px;
     text-align:left;
@@ -70,4 +78,55 @@
 .downloadbutt:hover{
     background-color: white;
     color: black;
+}
+.span{
+    margin-top: 20px;
+}
+
+.ico{
+    height: 50px;
+    width: 100%;
+    color: white;
+    display: flex;
+   padding:20px;
+
+  
+}
+.ico1{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+.ico2{
+    flex:1;
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 40px;
+}
+.ico>div>a> img{
+    height: 40px;
+    width: 40px;
+    background-color:rgb(219, 235, 234);
+    border-radius: 50%;
+
+}
+.git:hover{
+    height: 45px;
+    width: 45px;
+    background-color:rgb(219, 235, 234);
+    border-radius: 50%;transition-duration: 2s;
+}
+.link:hover{
+   transition-duration: 2s;
+    height: 45px;
+    width: 45px;
+    background-color:rgb(219, 235, 234);
+    border-radius: 50%;
+}
+.About{
+    width:75%;
+}
+p{
+    text-align: justify;
 }

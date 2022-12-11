@@ -2,7 +2,7 @@
     height:100px;
     width:120px;
     margin: 20px;
-    background-color:;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,8 +13,6 @@
 }
 .en:hover{
   background-color: orangered;
-  cursor:pointer;
-
 }
 .exp{
     display: flex;

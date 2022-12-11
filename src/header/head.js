@@ -14,7 +14,7 @@ function Header() {
             <Link to="project" smooth={true} duration={500}><h4>Project</h4></Link>
             <Link to="experience" smooth={true} duration={500}><h4>Experience</h4></Link>
             <Link to="contact" smooth={true} duration={500}><h4>Contact</h4></Link>
-            <h4 className='headrightbutton'>Join with me</h4>
+            <a href="https://github.com/manju9323" target={"_blank"} rel="noreferrer" smooth={true} duration={500}>  <h4 className='headrightbutton'>Join with me</h4></a>
          </div>
     </div>
   )

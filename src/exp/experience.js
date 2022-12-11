@@ -15,10 +15,10 @@ function Experience() {
     </div>
 
     <div className='en'>  <h4>10+</h4>
-    <div>self practice project</div></div>
+    <div>Guvi prctice self project</div></div>
 
     <div className='en'>
-    <h4>8 Months</h4>
+    <h4>11 Months</h4>
     <div>learn and deploying project</div></div>
 
     </div>
