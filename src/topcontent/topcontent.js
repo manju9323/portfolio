@@ -1,6 +1,6 @@
 import React from 'react'
 import "./topcontent.css"
-import mainpro from'./profile.jpg' ;
+import mainpro from'./pblue.jpg' ;
 //lm;lml;lm
 function Topcontent() {
   return (
@@ -17,7 +17,7 @@ function Topcontent() {
               <span className='span'>email{" : "}manjugopi610@gmail.com</span>
              
                <p>Full Stack Developer (MERN)</p>
-               <a href="https://drive.google.com/file/d/10eZqfaSMK_pdRSzo_8bSMq31tXI5k9De/view?usp=sharing" target={"_blank"} rel="noreferrer">
+               <a href="https://drive.google.com/file/d/13oRyHsXQcW9xZ37115CjW232K_Is6W7P/view?usp=sharing" target={"_blank"} rel="noreferrer">
                 <button className='downloadbutt'>Resume</button>
                </a>
                {/*<a href="https://github.com/manju9323" target={"_blank"} rel="noreferrer" smooth={true} duration={500}><button className='downloadbutt'>My work</button>    </a>*/}

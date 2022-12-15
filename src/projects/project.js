@@ -6,7 +6,7 @@ import ProjectMap from './projectmap'
 
 const project=[
   {img:"youtube.png",
-  title:"Youtube reactjs+mongodb firebase googleauth",
+  title:" Full stack Youtube reactjs+mongodb firebase googleauth",
   desc:"upload,subscribe,likes,comments section is here and wait for 30sec to start server",
   github:"https://github.com/manju9323/youtubereact",
   mongo:"https://github.com/manju9323/youtubenode",
@@ -14,7 +14,7 @@ const project=[
   link:"https://youtubeplacereact.netlify.app/"},
 
   {img:"chat.png",
-  title:"Real time chat app reactjs+mongodb",
+  title:" Full Stack Real time chat app reactjs+mongodb",
   desc:"create account to follow others real time online chat using socket io",
   github:"https://github.com/manju9323/chatsreact",
   mongo:"https://github.com/manju9323/chatnode",
@@ -22,23 +22,17 @@ const project=[
   link:"https://chatreactmaesgo.netlify.app/"},
 
   {img:"gmail.png",
-    title:"gmail clone app reactjs+mongodb",
+    title:"Full stack gmail clone app reactjs+mongodb",
     desc:"gmail clone app send create inbox delete forward reply",
     github:"https://github.com/manju9323/frontendmailgood",
   mongo:"https://github.com/manju9323/gmailbackendfine",
   netlify:"https://gmailreact.netlify.app/",
     link:"https://gmailreact.netlify.app/"},
 
-    {img:"ecom.png",
-    title:"ecom website reactjs+mysql",
-    desc:"ecom website using stripe payment gateway",
-    github:"https://github.com/manju9323/ecompaymentreact",
-  mongo:"https://github.com/manju9323/apiecom",
-  netlify:"https://ecompaymentreact.netlify.app/",
-  link:"https://ecompaymentreact.netlify.app/"},
+  
 
     {img:"short.png",
-    title:"url shortner reactjs+mongodb",
+    title:"Full stack url shortner reactjs+mongodb",
     desc:"using email forget password url shortner for mern stack developer redirect to specific url",
     github:"https://github.com/manju9323/urlshort38",
   mongo:"https://github.com/manju9323/urlshortbackend38",
@@ -52,7 +46,14 @@ const project=[
   mongo:"",
   netlify:"https://verdant-cannoli-aa1ce1.netlify.app/",
   link:"https://verdant-cannoli-aa1ce1.netlify.app/"},
-    
+
+  {img:"usecontext.png",
+  title:"create table using use context",
+  desc:"use context method to create tables",
+  github:"https://github.com/manju9323/day26react",
+mongo:"",
+netlify:"https://astounding-lolly-f9c956.netlify.app/",
+link:"https://astounding-lolly-f9c956.netlify.app/"},
 ]
 
 
