@@ -1,6 +1,6 @@
 import React from 'react'
 import "./topcontent.css"
-import mainpro from'./pblue.jpg' ;
+import mainpro from'./dpp.jpg' ;
 //lm;lml;lm
 function Topcontent() {
   return (
@@ -17,7 +17,7 @@ function Topcontent() {
               <span className='span'>email{" : "}manjugopi610@gmail.com</span>
              
                <p>Full Stack Developer (MERN)</p>
-               <a href="https://drive.google.com/file/d/13oRyHsXQcW9xZ37115CjW232K_Is6W7P/view?usp=sharing" target={"_blank"} rel="noreferrer">
+               <a href="https://drive.google.com/file/d/1mZ_Uzuf9X13wfr3sanS9r5LWqMo3iNfL/view?usp=sharing" target={"_blank"} rel="noreferrer">
                 <button className='downloadbutt'>Resume</button>
                </a>
                {/*<a href="https://github.com/manju9323" target={"_blank"} rel="noreferrer" smooth={true} duration={500}><button className='downloadbutt'>My work</button>    </a>*/}
@@ -27,7 +27,7 @@ function Topcontent() {
                 </div>
                 <div className='About'>
                   <h1>About</h1>
-                    <p>       I am MANJUNATHAN M I completed BE.EEE in the year 2017, then my final year project is a hybrid electrical car run by using solar, wind, and generator with the support of VRLA battery and I achieved university runner in yoga champion.  in between those years preparing for civil service exams(SSB). now I am preparing for full stack web developer(MERN) and well in web developing (MERN) stack and advance redux concept.
+                    <p>       I am MANJUNATHAN M I completed BE.EEE in the year 2017, then my final year project is a hybrid electrical car run by using solar, wind, and generator with the support of VRLA battery and I achieved university runner in yoga champion.  in between those years preparing for civil service exams(SSB). now I am intersted in preparing for full stack web developer(MERN) and well in web developing (MERN) stack and also advance redux concept. its very interest to develop.
                     </p>
 
                 </div>

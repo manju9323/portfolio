@@ -14,8 +14,8 @@ function Experience() {
         <div>MERN stack developer</div>
     </div>
 
-    <div className='en'>  <h4>10+</h4>
-    <div>Guvi prctice self project</div></div>
+    <div className='en'>  <h4>12+</h4>
+    <div>practice self project and deploy</div></div>
 
     <div className='en'>
     <h4>11 Months</h4>
